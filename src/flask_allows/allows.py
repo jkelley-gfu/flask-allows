@@ -246,4 +246,4 @@ def _call_requirement(requirement, user):
         return requirement(user, request)
 
 
-allows = LocalProxy(__get_allows, name="flask-allows")
+allows = LocalProxy(__get_allows)
